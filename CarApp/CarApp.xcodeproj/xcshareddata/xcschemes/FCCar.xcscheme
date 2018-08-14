@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE8286D1200BDDAB006AF654"
-               BuildableName = "FCCarthage.framework"
-               BlueprintName = "FCCarthage"
-               ReferencedContainer = "container:FCCarthage.xcodeproj">
+               BlueprintIdentifier = "CE82875D200DD559006AF654"
+               BuildableName = "FCCar.framework"
+               BlueprintName = "FCCar"
+               ReferencedContainer = "container:CarApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,26 +29,7 @@
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE8286DA200BDDAB006AF654"
-               BuildableName = "FCCarthageTests.xctest"
-               BlueprintName = "FCCarthageTests"
-               ReferencedContainer = "container:FCCarthage.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE8286D1200BDDAB006AF654"
-            BuildableName = "FCCarthage.framework"
-            BlueprintName = "FCCarthage"
-            ReferencedContainer = "container:FCCarthage.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -66,10 +47,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE8286D1200BDDAB006AF654"
-            BuildableName = "FCCarthage.framework"
-            BlueprintName = "FCCarthage"
-            ReferencedContainer = "container:FCCarthage.xcodeproj">
+            BlueprintIdentifier = "CE82875D200DD559006AF654"
+            BuildableName = "FCCar.framework"
+            BlueprintName = "FCCar"
+            ReferencedContainer = "container:CarApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -84,10 +65,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE8286D1200BDDAB006AF654"
-            BuildableName = "FCCarthage.framework"
-            BlueprintName = "FCCarthage"
-            ReferencedContainer = "container:FCCarthage.xcodeproj">
+            BlueprintIdentifier = "CE82875D200DD559006AF654"
+            BuildableName = "FCCar.framework"
+            BlueprintName = "FCCar"
+            ReferencedContainer = "container:CarApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

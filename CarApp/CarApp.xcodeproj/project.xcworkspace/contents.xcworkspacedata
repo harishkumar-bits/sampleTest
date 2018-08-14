@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FCCarthage.xcodeproj">
+      location = "self:CarApp.xcodeproj">
    </FileRef>
 </Workspace>

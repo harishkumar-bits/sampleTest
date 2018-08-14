@@ -1,18 +1,18 @@
 //
-//  FCCarthageTests.m
-//  FCCarthageTests
+//  FCCarTests.m
+//  FCCarTests
 //
-//  Created by user on 15/01/18.
+//  Created by user on 16/01/18.
 //  Copyright © 2018 Freshdesk. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface FCCarthageTests : XCTestCase
+@interface FCCarTests : XCTestCase
 
 @end
 
-@implementation FCCarthageTests
+@implementation FCCarTests
 
 - (void)setUp {
     [super setUp];
