@@ -23,6 +23,22 @@
 		CE828780200DD88D006AF654 /* NewFile.h in Sources */ = {isa = PBXBuildFile; fileRef = CE82877C200DD594006AF654 /* NewFile.h */; };
 		CE828781200DD92A006AF654 /* NewFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CE82877C200DD594006AF654 /* NewFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE828786200DE340006AF654 /* NewFile.m in Headers */ = {isa = PBXBuildFile; fileRef = CE82877D200DD594006AF654 /* NewFile.m */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA123FA82124D5C800681EA9 /* FreshchatModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA123FA12124D5C700681EA9 /* FreshchatModels.bundle */; };
+		EA123FA92124D5C800681EA9 /* FCLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA123FA22124D5C700681EA9 /* FCLocalization.bundle */; };
+		EA123FAA2124D5C800681EA9 /* libFDFreshchatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FA32124D5C800681EA9 /* libFDFreshchatSDK.a */; };
+		EA123FAB2124D5C800681EA9 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA123FA42124D5C800681EA9 /* ReleaseNotes.txt */; };
+		EA123FAC2124D5C800681EA9 /* FCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA123FA52124D5C800681EA9 /* FCResources.bundle */; };
+		EA123FAD2124D5C800681EA9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = EA123FA62124D5C800681EA9 /* LICENSE */; };
+		EA123FAE2124D62400681EA9 /* FreshchatSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EA123FA02124D5C700681EA9 /* FreshchatSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA123FB12124D7EF00681EA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FB02124D7EF00681EA9 /* Foundation.framework */; };
+		EA123FB32124D7F600681EA9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FB22124D7F600681EA9 /* AVFoundation.framework */; };
+		EA123FB52124D80200681EA9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FB42124D80200681EA9 /* AudioToolbox.framework */; };
+		EA123FB72124D81000681EA9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FB62124D81000681EA9 /* CoreMedia.framework */; };
+		EA123FB92124D82100681EA9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FB82124D82100681EA9 /* CoreData.framework */; };
+		EA123FBB2124D82800681EA9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FBA2124D82800681EA9 /* ImageIO.framework */; };
+		EA123FBD2124D83800681EA9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FBC2124D83700681EA9 /* Photos.framework */; };
+		EA123FBF2124D84100681EA9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FBE2124D84100681EA9 /* SystemConfiguration.framework */; };
+		EA123FC12124D84E00681EA9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FC02124D84E00681EA9 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +108,22 @@
 		CE82876F200DD559006AF654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE82877C200DD594006AF654 /* NewFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewFile.h; sourceTree = "<group>"; };
 		CE82877D200DD594006AF654 /* NewFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewFile.m; sourceTree = "<group>"; };
+		EA123FA02124D5C700681EA9 /* FreshchatSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreshchatSDK.h; sourceTree = "<group>"; };
+		EA123FA12124D5C700681EA9 /* FreshchatModels.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FreshchatModels.bundle; sourceTree = "<group>"; };
+		EA123FA22124D5C700681EA9 /* FCLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FCLocalization.bundle; sourceTree = "<group>"; };
+		EA123FA32124D5C800681EA9 /* libFDFreshchatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFDFreshchatSDK.a; sourceTree = "<group>"; };
+		EA123FA42124D5C800681EA9 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
+		EA123FA52124D5C800681EA9 /* FCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FCResources.bundle; sourceTree = "<group>"; };
+		EA123FA62124D5C800681EA9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EA123FB02124D7EF00681EA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA123FB22124D7F600681EA9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EA123FB42124D80200681EA9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EA123FB62124D81000681EA9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EA123FB82124D82100681EA9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EA123FBA2124D82800681EA9 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EA123FBC2124D83700681EA9 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		EA123FBE2124D84100681EA9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EA123FC02124D84E00681EA9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +146,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA123FC12124D84E00681EA9 /* Security.framework in Frameworks */,
+				EA123FBF2124D84100681EA9 /* SystemConfiguration.framework in Frameworks */,
+				EA123FBD2124D83800681EA9 /* Photos.framework in Frameworks */,
+				EA123FBB2124D82800681EA9 /* ImageIO.framework in Frameworks */,
+				EA123FB92124D82100681EA9 /* CoreData.framework in Frameworks */,
+				EA123FB72124D81000681EA9 /* CoreMedia.framework in Frameworks */,
+				EA123FB52124D80200681EA9 /* AudioToolbox.framework in Frameworks */,
+				EA123FB32124D7F600681EA9 /* AVFoundation.framework in Frameworks */,
+				EA123FB12124D7EF00681EA9 /* Foundation.framework in Frameworks */,
+				EA123FAA2124D5C800681EA9 /* libFDFreshchatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +178,7 @@
 				CE82875F200DD559006AF654 /* FCCar */,
 				CE82876C200DD559006AF654 /* FCCarTests */,
 				CE828733200DD537006AF654 /* Products */,
+				EA123FAF2124D7EF00681EA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,6 +222,13 @@
 			isa = PBXGroup;
 			children = (
 				CE828760200DD559006AF654 /* FCCar.h */,
+				EA123FA22124D5C700681EA9 /* FCLocalization.bundle */,
+				EA123FA52124D5C800681EA9 /* FCResources.bundle */,
+				EA123FA12124D5C700681EA9 /* FreshchatModels.bundle */,
+				EA123FA02124D5C700681EA9 /* FreshchatSDK.h */,
+				EA123FA32124D5C800681EA9 /* libFDFreshchatSDK.a */,
+				EA123FA62124D5C800681EA9 /* LICENSE */,
+				EA123FA42124D5C800681EA9 /* ReleaseNotes.txt */,
 				CE82877C200DD594006AF654 /* NewFile.h */,
 				CE82877D200DD594006AF654 /* NewFile.m */,
 				CE828761200DD559006AF654 /* Info.plist */,
@@ -195,6 +245,22 @@
 			path = FCCarTests;
 			sourceTree = "<group>";
 		};
+		EA123FAF2124D7EF00681EA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA123FC02124D84E00681EA9 /* Security.framework */,
+				EA123FBE2124D84100681EA9 /* SystemConfiguration.framework */,
+				EA123FBC2124D83700681EA9 /* Photos.framework */,
+				EA123FBA2124D82800681EA9 /* ImageIO.framework */,
+				EA123FB82124D82100681EA9 /* CoreData.framework */,
+				EA123FB62124D81000681EA9 /* CoreMedia.framework */,
+				EA123FB42124D80200681EA9 /* AudioToolbox.framework */,
+				EA123FB22124D7F600681EA9 /* AVFoundation.framework */,
+				EA123FB02124D7EF00681EA9 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -204,6 +270,7 @@
 			files = (
 				CE828770200DD559006AF654 /* FCCar.h in Headers */,
 				CE828781200DD92A006AF654 /* NewFile.h in Headers */,
+				EA123FAE2124D62400681EA9 /* FreshchatSDK.h in Headers */,
 				CE828786200DE340006AF654 /* NewFile.m in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +424,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA123FAB2124D5C800681EA9 /* ReleaseNotes.txt in Resources */,
+				EA123FA82124D5C800681EA9 /* FreshchatModels.bundle in Resources */,
+				EA123FAC2124D5C800681EA9 /* FCResources.bundle in Resources */,
+				EA123FA92124D5C800681EA9 /* FCLocalization.bundle in Resources */,
+				EA123FAD2124D5C800681EA9 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +706,10 @@
 				INFOPLIST_FILE = FCCar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FCCar",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.freshdesk.hotline.FCCar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -657,6 +733,10 @@
 				INFOPLIST_FILE = FCCar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FCCar",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.freshdesk.hotline.FCCar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

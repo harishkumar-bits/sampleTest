@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "FCCar.h"
+#import "FreshchatSDK.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,7 @@
     NewFile *new = [NewFile new];
     NSString *newStr = [new randomStringWithLength:13];
     NSLog(@"Randon string %@", newStr);
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
