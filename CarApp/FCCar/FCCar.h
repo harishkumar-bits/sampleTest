@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FCCar/NewFile.h>
-#import <FCCar/FreshchatSDK.h>
+#import "NewFile.h"
+#import "FreshchatSDK.h"
 
 //! Project version number for FCCar.
 FOUNDATION_EXPORT double FCCarVersionNumber;
