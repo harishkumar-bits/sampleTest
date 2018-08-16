@@ -19,8 +19,6 @@
 		CE828770200DD559006AF654 /* FCCar.h in Headers */ = {isa = PBXBuildFile; fileRef = CE828760200DD559006AF654 /* FCCar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE828773200DD559006AF654 /* FCCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE82875E200DD559006AF654 /* FCCar.framework */; };
 		CE828774200DD559006AF654 /* FCCar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE82875E200DD559006AF654 /* FCCar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CE82877F200DD5B8006AF654 /* NewFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CE82877D200DD594006AF654 /* NewFile.m */; };
-		CE828780200DD88D006AF654 /* NewFile.h in Sources */ = {isa = PBXBuildFile; fileRef = CE82877C200DD594006AF654 /* NewFile.h */; };
 		CE828781200DD92A006AF654 /* NewFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CE82877C200DD594006AF654 /* NewFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE828786200DE340006AF654 /* NewFile.m in Headers */ = {isa = PBXBuildFile; fileRef = CE82877D200DD594006AF654 /* NewFile.m */; settings = {ATTRIBUTES = (Private, ); }; };
 		EA123FA82124D5C800681EA9 /* FreshchatModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA123FA12124D5C700681EA9 /* FreshchatModels.bundle */; };
@@ -39,6 +37,8 @@
 		EA123FBD2124D83800681EA9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FBC2124D83700681EA9 /* Photos.framework */; };
 		EA123FBF2124D84100681EA9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FBE2124D84100681EA9 /* SystemConfiguration.framework */; };
 		EA123FC12124D84E00681EA9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA123FC02124D84E00681EA9 /* Security.framework */; };
+		EA568E3E21258715006C7AEB /* FreshchatSDK.h in Sources */ = {isa = PBXBuildFile; fileRef = EA123FA02124D5C700681EA9 /* FreshchatSDK.h */; };
+		EA568E3F21258730006C7AEB /* FCCar.h in Sources */ = {isa = PBXBuildFile; fileRef = CE828760200DD559006AF654 /* FCCar.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -464,8 +464,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE828780200DD88D006AF654 /* NewFile.h in Sources */,
-				CE82877F200DD5B8006AF654 /* NewFile.m in Sources */,
+				EA568E3F21258730006C7AEB /* FCCar.h in Sources */,
+				EA568E3E21258715006C7AEB /* FreshchatSDK.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
